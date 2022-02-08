@@ -1,10 +1,12 @@
+
+> :bulb: 8 kyu
+>
+> :clock1: 5 menit
+>
+> :pencil2: Aku belajar pake konsep make di golang
+
+
 ## Problem
-
-:bulb: 8 kyu
-
-:clock1: 5 menit
-
-> Aku belajar pake konsep make di golang
 
 
 ```go
