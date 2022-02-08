@@ -1,4 +1,11 @@
-## Problems
+## Problem
+
+:bulb: 8 kyu
+
+:clock1: 5 menit
+
+> Aku belajar pake konsep make di golang
+
 
 ```go
 Accum("ZpglnRxqenU")
@@ -37,4 +44,24 @@ func Accum(s string) string {
 
 	return result
 }
+```
+
+## Best Solution
+
+```go
+
+import (
+	"strings"
+)
+
+func Accum(s string) string {
+	parts := make([]string, len(s))
+
+	for i, v := range s {
+		parts[i] = strings.ToUpper(string(v)) + strings.Repeat(strings.ToLower(string(v)), i)
+	}
+
+	return strings.Join(parts, "-")
+}
+
 ```
